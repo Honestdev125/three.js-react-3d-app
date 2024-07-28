@@ -38,7 +38,7 @@ const Navbar = () => {
       });
     };
 
-    window.addEventListener("scroll", navbarHighlighter);
+    window.addEventListener("scroll", navbarHighlighter)
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
